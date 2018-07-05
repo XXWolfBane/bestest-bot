@@ -15,5 +15,13 @@ async def onready():
 @bot.command()
 async def alive(ctx):
     await ctx.send('Look Im alive!')
+    
+bot.remove_command('help')
+
+@bot.command()
+async def help(ctx):
+    embed = discord.Embed(title="Bestest Bot Help System", description="This is a list of all Bestest Bots commands!!", color=0xeee657)
+    embed.add_field(name="alive", value="Displays magical text", inline=false)
+     await ctx.send(embed=embed)
  
 bot.run('NDY0NDYwMzEyMjUxMjAzNjI2.Dh_R4w.x0NU1_BMMB1Z613RYVe5DHTR-dg')

@@ -14,6 +14,6 @@ async def onready():
     
 @bot.command()
 async def alive(ctx):
-    ctx.send('Look Im alive!")
+    ctx.send('Look Im alive!')
  
 bot.run(NDY0NDYwMzEyMjUxMjAzNjI2.Dh_R4w.x0NU1_BMMB1Z613RYVe5DHTR-dg)

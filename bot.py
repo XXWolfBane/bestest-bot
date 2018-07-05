@@ -24,4 +24,4 @@ async def help(ctx):
     embed.add_field(name="alive", value="Displays magical text", inline=False)
     await ctx.send(embed=embed)
  
-bot.run('NDY0NDYwMzEyMjUxMjAzNjI2.Dh_R4w.x0NU1_BMMB1Z613RYVe5DHTR-dg')
+bot.run('NDYxOTUzNTk5NDI2MDAyOTU2.DiAAiQ.A2osYwBxq5Fh_tRixPL28aiLSFE')
